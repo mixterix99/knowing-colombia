@@ -23,7 +23,8 @@ class WelcomeScreen extends StatelessWidget {
                 overflow: TextOverflow.ellipsis, // Correcto
                 style: TextStyle(
                   // Otros estilos si es necesario
-                  fontSize: 15, // Puedes ajustar el tamaño según sea necesario
+                  fontSize: 15,
+                  fontWeight: FontWeight.bold, // Puedes ajustar el tamaño según sea necesario
                 ),
               ),
             ),
@@ -87,7 +88,8 @@ class WelcomeScreen extends StatelessWidget {
                 const Text(
                   '¡Bienvenido a Conociendo ',
                   textAlign: TextAlign.center,
-                  style: TextStyle(fontSize: 24, color: Colors.black),
+                  style: TextStyle(fontSize: 24, color: Colors.black, fontWeight: FontWeight.bold),
+                  
                 ),
                 // Texto "Colombia" con los colores de la bandera centrado
                 Text.rich(
